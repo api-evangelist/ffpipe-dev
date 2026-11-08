@@ -1,4 +1,4 @@
-# ffpipe-dev
+# ffpipe
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ffpipe-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ffpipe.dev/
+ffpipe provides machine-payable media processing for agents, enabling video conversion at $0.02 per job, paid in USDC on base mainnet. The platform offers an API for media conversion, pricing, and integration, targeting developers and agents needing scalable media workflows.
+
+**Areas:** Media · Payments · Video · API · Automation
+
+## ffpipe on APIs.io
+
+Everything profiled for ffpipe is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ffpipe-dev/](https://apis.io/providers/ffpipe-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [ffpipe Discovery API](https://apis.io/apis/ffpipe-dev/ffpipe-dev-discovery-api/) — Unpaid, cacheable descriptions of this service.
+- [ffpipe Feedback API](https://apis.io/apis/ffpipe-dev/ffpipe-dev-feedback-api/) — Free, one-way channel for capability requests, bug reports and feedback. Requests for operations ffpipe does not offer yet are aggregated and drive what…
+- [ffpipe Jobs API](https://apis.io/apis/ffpipe-dev/ffpipe-dev-jobs-api/) — Paid job submission and free status polling.
+- [ffpipe MCP API](https://apis.io/apis/ffpipe-dev/ffpipe-dev-mcp-api/) — The same job API as MCP tools (Model Context Protocol, streamable HTTP). JSON-RPC, so the operation below is a pointer, not a full description — connect an…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ffpipe Dev Agentic Access](https://apis.io/agentic-access/ffpipe-dev/ffpipe-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [FeedbackRequest](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-feedback-request/)
+- [FramesManifest](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-frames-manifest/)
+- [FramesRequest](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-frames-request/)
+- [JobAccepted](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-job-accepted/)
+- [JobStatus](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-job-status/)
+- [ProbeRequest](https://apis.io/schemas/ffpipe-dev/ffpipe-dev-probe-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ffpipe Dev Context](https://apis.io/jsonld/ffpipe-dev/ffpipe-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ffpipe API Rules](https://apis.io/rules/ffpipe-dev/ffpipe-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ffpipe Dev Authentication](https://apis.io/security/ffpipe-dev/ffpipe-dev-authentication/)
+- [Ffpipe Dev Domain Security](https://apis.io/security/ffpipe-dev/ffpipe-dev-domain-security/)
+- [Ffpipe Dev Vulnerability Disclosure](https://apis.io/security/ffpipe-dev/ffpipe-dev-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ffpipe.dev/)
+- [Getting started](https://ffpipe.dev/#how)
+- [API reference](https://ffpipe.dev/openapi.json)
+- [Pricing](https://ffpipe.dev/#pricing)
+- [Security](https://ffpipe.dev/terms)
+- [Terms of service](https://ffpipe.dev/terms)
+- [Privacy policy](https://ffpipe.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.0** — developing · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 61.7 |
+| Contract quality | 59.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 31.6 |
+
+**Agent readiness 61.1** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 27.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ffpipe-dev/](https://apis.io/providers/ffpipe-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ffpipe: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ffpipe-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
